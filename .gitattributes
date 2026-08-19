@@ -1,0 +1,7 @@
+# 텍스트 파일은 저장소에 LF로 보관 (작업 폴더의 CRLF는 그대로 둔다)
+* text=auto
+
+# 한글·PDF는 반드시 바이너리로 — 줄바꿈 변환이 들어가면 파일이 깨진다
+*.hwpx binary
+*.hwp  binary
+*.pdf  binary
